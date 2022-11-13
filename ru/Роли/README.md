@@ -5,9 +5,9 @@
 
 SManager позволяет развернуть практически любое ПО где угодно:
 
-- Классческий вариант установки на ОС:
+- Классческий вариант установки на ОС с помощью shell:
     * Linux
-    * Windows
+    * Windows (в разработке)
 - В виде контейнера под управлением оркестраторов:
     * docker-compose
     * docker swarm (в разработке)
@@ -23,9 +23,11 @@ SManager позволяет развернуть практически любо
 
 Настроить роль можно из простого графического интерфейса:
 
-![MarineGEO circle logo](../images/role_common_view.PNG "Role common view")
+#### Просмотр:
+![Role common view](../../images/ru/role_common_view.PNG "Role common view")
 
-![MarineGEO circle logo](../images/role_common_edit.PNG "Role common edit")
+#### Редактирование:
+![Role common edit](../../images/ru/role_common_edit.PNG "Role common edit")
 
 ## Продвинутый режим
 Текстовый редактор Yaml, позволяющий описать развертку ПО, поведение CI\CD конвеера и внешний вид простого режима.
@@ -37,6 +39,7 @@ SManager позволяет развернуть практически любо
 
 ### Пример 1:
 docker-compose файл + интерфейс простого режима с возможностью редактирования
+
 ```
 x-SManager:
   properties:
@@ -79,6 +82,7 @@ networks:
 
 ### Пример 2:
 Рабочая нагрузка загружается из Git. При деплое на сервер после `git clone` будут выполенны команды из секции `script`
+
 ```
 x-SManager:
   side_menu:
