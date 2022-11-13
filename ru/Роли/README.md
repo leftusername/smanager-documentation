@@ -23,9 +23,9 @@ SManager позволяет развернуть практически любо
 
 Настроить роль можно из простого графического интерфейса:
 
-![MarineGEO circle logo](../../images/ru/role_common_view.PNG "Role common view")
+![MarineGEO circle logo](../images/role_common_view.PNG "Role common view")
 
-![MarineGEO circle logo](../../images/ru/role_common_edit.PNG "Role common edit")
+![MarineGEO circle logo](../images/role_common_edit.PNG "Role common edit")
 
 ## Продвинутый режим
 Текстовый редактор Yaml, позволяющий описать развертку ПО, поведение CI\CD конвеера и внешний вид простого режима.
